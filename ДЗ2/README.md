@@ -5,6 +5,10 @@
 
 ![](https://github.com/khosta77/ElectroDynamics/blob/main/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%20%D0%BF%D1%80%D0%B5%D0%BF%D0%BE%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F/image/%D0%94%D0%972.PNG)
 ___
+На 25.04.2022
+
+> Мелкие исправления.
+___
 На 23.04.2022
 
 > Обновлен 1 и 3 номер.
