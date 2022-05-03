@@ -42,8 +42,8 @@ f = (1 + 0.055*N)*12*1e9
 % 
 % и условия распространения в волноводе только основного типа волны
 % 
-% $$f_{\textrm{кр}\;Н_{11} } <f<f_{\textrm{кр}\;Е_{01} } \;\textrm{или}\;\lambda_{\textrm{кр}\;Е_{01} 
-% } <\lambda <\lambda_{\textrm{кр}\;Н_{11} } \ldotp$$
+% $$f_{\mathrm{кр}\;Н_{11} } \le f<f_{\mathrm{кр}\;Е_{01} } \;\mathrm{или}\;\lambda_{\mathrm{кр}\;Е_{01} 
+% } <\lambda \le \lambda_{\mathrm{кр}\;Н_{11} } \ldotp$$
 % 
 % Критическая длина волны для поля E01
 % 
@@ -61,11 +61,11 @@ f = (1 + 0.055*N)*12*1e9
 % 
 % Тогда
 % 
-% $$2,61\cdot a<0,006<3,41\cdot a,$$
+% $$2,61\cdot a<0,006\le 3,41\cdot a,$$
 % 
-% $$1,86\;\left\lbrack \textrm{мм}\right\rbrack <a<2,43\left\lbrack \textrm{мм}\right\rbrack 
-% \Longrightarrow 3,71\;\left\lbrack \textrm{мм}\right\rbrack <d<4,85\;\left\lbrack 
-% \textrm{мм}\right\rbrack \ldotp$$
+% $$1,86\;\left\lbrack \mathrm{мм}\right\rbrack <a\le 2,43\left\lbrack \mathrm{мм}\right\rbrack 
+% \Longrightarrow 3,71\;\left\lbrack \mathrm{мм}\right\rbrack <d\le 4,85\;\left\lbrack 
+% \mathrm{мм}\right\rbrack \ldotp$$
 
 lamda = c / ( f * sqrt(er))
 fprintf('%1.2f [мм] < a < %1.2f [мм]', lamda / 3.41 * 1e3, lamda / 2.61 * 1e3);

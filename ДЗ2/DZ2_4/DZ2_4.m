@@ -107,7 +107,7 @@ nu = 0.1 + 1 % %
 %% 
 % По графику функции видно, что при частоте
 % 
-% $$f_0 =71129000000\;\left\lbrack \mathrm{Гц}\right\rbrack$$
+% $$f_0 =71129000000\;\left\lbrack \textrm{Гц}\right\rbrack$$
 % 
 % Минимальный коэффициент ослабления
 % 
@@ -120,8 +120,8 @@ nu = 0.1 + 1 % %
 % Согласно графику, диапазон частот, в пределах которого значение коэффициента 
 % затухания отличается от минимального не более чем на 10 %
 % 
-% $$48907000000\;\left\lbrack \textrm{Гц}\right\rbrack <f<118752000000\;\left\lbrack 
-% \textrm{Гц}\right\rbrack \ldotp$$
+% $$48907000000\;\left\lbrack \mathrm{Гц}\right\rbrack \le f\le 118752000000\;\left\lbrack 
+% \mathrm{Гц}\right\rbrack \ldotp$$
 
 lamda_krat = 2/sqrt(2*(1/b)^2)
 cla reset;
