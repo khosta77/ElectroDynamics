@@ -45,15 +45,15 @@ Em = (M + 2.4*N)*1e4
 %% 
 % Поле $H_{10}$ в прямоугольном волноводе:
 % 
-% $$\dot{H_{\textrm{m3}} } =H\cdot \cos \left(\frac{\pi x_1 }{a}\right)\cdot 
-% e^{-{\textrm{jk}}_0 x_3 }$$
+% $$\dot{H_{\mathrm{m3}} } =H\cdot \cos \left(\frac{\pi x_1 }{a}\right)\cdot 
+% e^{-{\mathrm{ik}}_0 x_3 }$$
 % 
-% $$\dot{H_{\textrm{m1}} } =i\cdot \frac{2a}{\lambda }\cdot \sqrt{1-{\left(\frac{\lambda 
-% }{2a}\right)}^2 }\cdot H\cdot \sin \left(\frac{\pi x_1 }{a}\right)\cdot e^{-{\textrm{jk}}_0 
+% $$\dot{H_{\mathrm{m1}} } =i\cdot \frac{2a}{\lambda }\cdot \sqrt{1-{\left(\frac{\lambda 
+% }{2a}\right)}^2 }\cdot H\cdot \sin \left(\frac{\pi x_1 }{a}\right)\cdot e^{-{\mathrm{ik}}_0 
 % x_3 }$$
 % 
-% $$\dot{E_{\textrm{m2}} } =-i\cdot \frac{2a}{\lambda }\cdot Z_0 \cdot \sin 
-% \left(\frac{\pi x_1 }{a}\right)\cdot e^{-{\textrm{jk}}_0 x_3 }$$
+% $$\dot{E_{\mathrm{m2}} } =-i\cdot \frac{2a}{\lambda }\cdot Z_0 \cdot \sin 
+% \left(\frac{\pi x_1 }{a}\right)\cdot e^{-{\mathrm{ik}}_0 x_3 }$$
 % 
 % $$\dot{H_{\textrm{m2}} } =0;\;\dot{E_{\textrm{m1}} } =0;\;\dot{E_{\textrm{m3}} 
 % } =0$$
@@ -130,22 +130,22 @@ H = (lamda*Em)/(lamda_kra*Z_0)
 %% 
 % Выразим для составляющих поля в численном виде
 % 
-% $$\dot{H_{{\textrm{mx}}_3 } } =533\cdot \cos \left(\frac{\pi x_1 }{0,023}\right)\cdot 
-% e^{-j\cdot 325,91\cdot x_3 } \;\left\lbrack \frac{A}{м}\right\rbrack$$
+% $$\dot{H_{{\mathrm{mx}}_3 } } =533\cdot \cos \left(\frac{\pi x_1 }{0,023}\right)\cdot 
+% e^{-i\cdot 325,91\cdot x_3 } \;\left\lbrack \frac{A}{м}\right\rbrack$$
 % 
-% $$\dot{H_{{\textrm{mx}}_1 } } =i\cdot \frac{2\cdot 0,023}{0,017}\cdot \sqrt{1-{\left(\frac{0,017}{2\cdot 
+% $$\dot{H_{{\mathrm{mx}}_1 } } =i\cdot \frac{2\cdot 0,023}{0,017}\cdot \sqrt{1-{\left(\frac{0,017}{2\cdot 
 % 0,023}\right)}^2 }\cdot 533\;\cdot \sin \left(\frac{\pi x_1 }{0,023}\right)\cdot 
-% e^{-j\cdot 325,91\cdot x_3 } \;\left\lbrack \frac{A}{м}\right\rbrack ,$$
+% e^{-i\cdot 325,91\cdot x_3 } \;\left\lbrack \frac{A}{м}\right\rbrack ,$$
 % 
-% $$\dot{H_{{\textrm{mx}}_1 } } =i\cdot 1340\cdot \sin \left(\frac{\pi x_1 }{0,023}\right)\cdot 
-% e^{-j\cdot 325,91\cdot z} \;\left\lbrack \frac{A}{м}\right\rbrack ,$$
+% $$\dot{H_{{\mathrm{mx}}_1 } } =i\cdot 1340\cdot \sin \left(\frac{\pi x_1 }{0,023}\right)\cdot 
+% e^{-i\cdot 325,91\cdot z} \;\left\lbrack \frac{A}{м}\right\rbrack ,$$
 % 
-% $$\dot{E_{{\textrm{mx}}_2 } } =-i\cdot \frac{2\cdot 0,023}{0,017}\cdot 244,12\cdot 
-% \sin \left(\frac{\pi x_1 }{0,023}\right)\cdot e^{-j\cdot 325,91\cdot x_3 } \;\left\lbrack 
+% $$\dot{E_{{\mathrm{mx}}_2 } } =-i\cdot \frac{2\cdot 0,023}{0,017}\cdot 244,12\cdot 
+% \sin \left(\frac{\pi x_1 }{0,023}\right)\cdot e^{-i\cdot 325,91\cdot x_3 } \;\left\lbrack 
 % \frac{В}{м}\right\rbrack ,$$
 % 
-% $$\dot{E_{{\textrm{mx}}_2 } } =-i\cdot 660,56\cdot \sin \left(\frac{\pi x_1 
-% }{0,023}\right)\cdot e^{-j\cdot 325,91\cdot x_3 } \;\left\lbrack \frac{В}{м}\right\rbrack 
+% $$\dot{E_{{\mathrm{mx}}_2 } } =-i\cdot 660,56\cdot \sin \left(\frac{\pi x_1 
+% }{0,023}\right)\cdot e^{-i\cdot 325,91\cdot x_3 } \;\left\lbrack \frac{В}{м}\right\rbrack 
 % ,$$
 % 
 % $$\dot{H_{\textrm{m2}} } =0\left\lbrack \frac{A}{м}\right\rbrack ;\;\dot{E_{\textrm{m1}} 
